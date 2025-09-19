@@ -14,13 +14,13 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-orange-900">
             <p>
-              Join the University of Toronto's premier AI community. Learn to build
+              Join the University of Toronto&apos;s premier AI community. Learn to build
               with Claude, explore cutting-edge AI applications, and connect with
               fellow builders who are shaping the future of artificial intelligence.
             </p>
             <p>
               Coming <span className="text-amber-600 font-semibold">Fall 2025</span> in Toronto.
-              Our workshops will teach you practical AI development skills, and you'll
+              Our workshops will teach you practical AI development skills, and you&apos;ll
               get free API credits to bring your ideas to life!
             </p>
           </div>
