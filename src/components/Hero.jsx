@@ -1,6 +1,11 @@
+import Image from 'next/image'
+
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import logoAnthropic from '@/images/logos/anthropic.png'
+import logoUofTAI from '@/images/logos/uoftai.png'
+import logoBlueprint from '@/images/logos/blueprint.png'
 
 export function Hero() {
   return (
@@ -11,6 +16,7 @@ export function Hero() {
           <h1 className="font-display text-5xl font-bold tracking-tighter text-orange-600 sm:text-7xl">
             <span className="sr-only">Anthropic x UofTAI x Blueprint - </span>Anthropic AI Hackathon
           </h1>
+          
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-orange-900">
             <p>
               Join 300+ builders at the University of Toronto&apos;s premier AI hackathon. 
@@ -24,12 +30,28 @@ export function Hero() {
             </p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button href="https://lu.ma/anthropic-uoft" className="flex-1 text-lg py-4">
+            <Button href="https://lu.ma/anthropic-uoft" className="flex-1 text-lg py-4 !bg-transparent border-2 border-blue-600 !text-blue-600 hover:!bg-blue-50">
               Register on Luma
             </Button>
             <Button href="#schedule" className="flex-1 sm:hidden">
               View Schedule
             </Button>
+          </div>
+          
+          {/* Sponsor Logos */}
+          <div className="mt-6">
+            <p className="text-sm font-medium text-orange-600 mb-3">Brought to you by</p>
+            <div className="flex items-center gap-6">
+              <div className="h-12 w-24 opacity-70">
+                <Image src={logoAnthropic} alt="Anthropic" className="h-full w-full object-contain" unoptimized />
+              </div>
+              <div className="h-12 w-24 opacity-70">
+                <Image src={logoUofTAI} alt="UofT AI" className="h-full w-full object-contain" unoptimized />
+              </div>
+              <div className="h-12 w-24 opacity-70">
+                <Image src={logoBlueprint} alt="Blueprint" className="h-full w-full object-contain" unoptimized />
+              </div>
+            </div>
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
