@@ -18,20 +18,25 @@ export function Hero() {
               shaping the future of artificial intelligence.
             </p>
             <p>
-              Challenge Release: <span className="text-amber-600 font-semibold">October 27, 2025</span> at 12:00 PM
+              Challenge Release: <span className="text-amber-600 font-semibold">November 1, 2025</span> at 12:00 PM
               <br />
-              Demo Day: <span className="text-amber-600 font-semibold">November 15, 2025</span> at MY150, Myhal Centre
+              Demo Day: <span className="text-amber-600 font-semibold">November 23, 2025</span> at MY150, Myhal Centre
             </p>
           </div>
-          <Button href="#schedule" className="mt-10 w-full sm:hidden">
-            View Schedule
-          </Button>
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <Button href="https://lu.ma/anthropic-uoft" className="flex-1 text-lg py-4">
+              Register on Luma
+            </Button>
+            <Button href="#schedule" className="flex-1 sm:hidden">
+              View Schedule
+            </Button>
+          </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Participants', '300'],
               ['Teams', '150-160'],
-              ['Prep Period', '20 Days'],
-              ['Demo Day', 'Nov 15'],
+              ['Prep Period', '23 Days'],
+              ['Demo Day', 'Nov 23'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-orange-600">{name}</dt>

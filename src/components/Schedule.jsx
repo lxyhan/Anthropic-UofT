@@ -9,8 +9,8 @@ import { Container } from '@/components/Container'
 
 const schedule = [
   {
-    date: 'Oct 27',
-    dateTime: '2025-10-27',
+    date: 'Nov 1',
+    dateTime: '2025-11-01',
     summary:
       'Challenge Release - Virtual livestream revealing the hackathon prompt and requirements.',
     timeSlots: [
@@ -41,8 +41,8 @@ const schedule = [
     ],
   },
   {
-    date: 'Oct 27 - Nov 12',
-    dateTime: '2025-10-27',
+    date: 'Nov 1 - Nov 23',
+    dateTime: '2025-11-01',
     summary:
       'Preparation Period - Teams work independently with full Claude API access and weekly support.',
     timeSlots: [
@@ -73,8 +73,8 @@ const schedule = [
     ],
   },
   {
-    date: 'Nov 15',
-    dateTime: '2025-11-15',
+    date: 'Nov 23',
+    dateTime: '2025-11-23',
     summary:
       'Demo Day - Final presentations, judging, and awards at MY150, Myhal Centre.',
     timeSlots: [
@@ -246,8 +246,8 @@ export function Schedule() {
             Three-phase hackathon: Challenge, Build, Demo.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-orange-900">
-            From challenge release to demo day, you&apos;ll have 20 days to build 
-            with Claude API. Join 300 participants across 150+ teams competing 
+            From challenge release to demo day, you&apos;ll have 23 days to build 
+            with Claude API. Join 300+ participants across 150+ teams competing 
             for prizes at the Myhal Centre.
           </p>
         </div>
