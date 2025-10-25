@@ -9,98 +9,98 @@ import { Container } from '@/components/Container'
 
 const schedule = [
   {
-    date: 'Oct 15',
-    dateTime: '2024-10-15',
+    date: 'Oct 27',
+    dateTime: '2025-10-27',
     summary:
-      'Introduction to AI development with Claude and fundamental concepts.',
+      'Challenge Release - Virtual livestream revealing the hackathon prompt and requirements.',
     timeSlots: [
       {
-        name: 'Welcome & Setup',
-        description: 'Getting started with Claude API',
-        start: '6:00PM',
-        end: '6:30PM',
+        name: 'Prompt Drop Event',
+        description: 'Virtual livestream - Challenge revealed',
+        start: '12:00PM',
+        end: '12:30PM',
       },
       {
-        name: 'Workshop Session',
-        description: 'Building your first AI chatbot',
-        start: '6:30PM',
-        end: '7:30PM',
+        name: 'Technical Requirements',
+        description: 'Judging criteria and guidelines announced',
+        start: '12:30PM',
+        end: '1:00PM',
       },
       {
-        name: 'Hands-on Practice',
-        description: 'Code along and Q&A',
-        start: '7:30PM',
-        end: '8:00PM',
+        name: 'Resource Distribution',
+        description: 'Claude API credits and documentation access',
+        start: '1:00PM',
+        end: '1:30PM',
       },
       {
-        name: 'Networking',
-        description: 'Meet fellow builders',
-        start: '8:00PM',
-        end: '8:30PM',
+        name: 'Q&A Session',
+        description: 'Live Q&A with organizers',
+        start: '1:30PM',
+        end: '2:00PM',
       },
     ],
   },
   {
-    date: 'Oct 29',
-    dateTime: '2024-10-29',
+    date: 'Oct 27 - Nov 12',
+    dateTime: '2025-10-27',
     summary:
-      'Advanced AI applications and real-world use cases.',
+      'Preparation Period - Teams work independently with full Claude API access and weekly support.',
     timeSlots: [
       {
-        name: 'Workshop Prep',
-        description: 'Environment setup check',
-        start: '6:00PM',
-        end: '6:15PM',
+        name: 'Independent Building',
+        description: 'Teams work on their projects with full API access',
+        start: 'Ongoing',
+        end: '',
       },
       {
-        name: 'Advanced Techniques',
-        description: 'Prompt engineering and fine-tuning',
-        start: '6:15PM',
-        end: '7:15PM',
+        name: 'Weekly Office Hours',
+        description: 'Virtual support sessions every Wednesday at 7:00 PM',
+        start: 'Wednesdays',
+        end: '7:00PM',
       },
       {
-        name: 'Project Building',
-        description: 'Build an AI-powered web app',
-        start: '7:15PM',
-        end: '8:00PM',
+        name: 'Mid-point Check-in',
+        description: 'Optional team progress sharing (November 6)',
+        start: 'Nov 6',
+        end: '',
       },
       {
-        name: 'Demo Time',
-        description: 'Show off your creations',
-        start: '8:00PM',
-        end: '8:30PM',
+        name: 'Final Submission',
+        description: 'Deadline: November 12, 11:59 PM',
+        start: 'Nov 12',
+        end: '11:59PM',
       },
     ],
   },
   {
-    date: 'Nov 12',
-    dateTime: '2024-11-12',
+    date: 'Nov 15',
+    dateTime: '2025-11-15',
     summary:
-      'Hackathon prep session and final workshop before the big event.',
+      'Demo Day - Final presentations, judging, and awards at MY150, Myhal Centre.',
     timeSlots: [
       {
-        name: 'Hackathon Overview',
-        description: 'Rules, prizes, and team formation',
-        start: '6:00PM',
-        end: '6:30PM',
+        name: 'Check-in & Setup',
+        description: 'Team arrival and demo setup',
+        start: '9:00AM',
+        end: '10:00AM',
       },
       {
-        name: 'Technical Workshop',
-        description: 'Advanced AI integration patterns',
-        start: '6:30PM',
-        end: '7:30PM',
+        name: 'Team Demos',
+        description: 'Project presentations and judging',
+        start: '10:00AM',
+        end: '2:00PM',
       },
       {
-        name: 'Team Formation',
-        description: 'Find your hackathon teammates',
-        start: '7:30PM',
-        end: '8:00PM',
+        name: 'Lunch & Networking',
+        description: 'Food and networking with participants',
+        start: '2:00PM',
+        end: '3:00PM',
       },
       {
-        name: 'Hackathon Kickoff',
-        description: 'November hackathon event preview',
-        start: '8:00PM',
-        end: '8:30PM',
+        name: 'Awards Ceremony',
+        description: 'Winner announcements and closing',
+        start: '3:00PM',
+        end: '6:00PM',
       },
     ],
   },
@@ -243,12 +243,12 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-orange-600 sm:text-5xl">
-            Three hands-on workshops to level up your AI building skills.
+            Three-phase hackathon: Challenge, Build, Demo.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-orange-900">
-            Learn to build with Claude API, get free credits to experiment,
-            and prepare for our November hackathon. All workshops include
-            free merch and networking opportunities.
+            From challenge release to demo day, you&apos;ll have 20 days to build 
+            with Claude API. Join 300 participants across 150+ teams competing 
+            for prizes at the Myhal Centre.
           </p>
         </div>
       </Container>
