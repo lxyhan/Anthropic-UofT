@@ -73,7 +73,7 @@ const schedule = [
     ],
   },
   {
-    date: 'Nov 23',
+    date: 'Tentative Nov 23',
     dateTime: '2025-11-23',
     summary:
       'Demo Day - Final presentations, judging, and awards at MY150, Myhal Centre.',

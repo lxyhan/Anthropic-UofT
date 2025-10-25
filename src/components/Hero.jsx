@@ -20,7 +20,7 @@ export function Hero() {
             <p>
               Challenge Release: <span className="text-amber-600 font-semibold">November 1, 2025</span> at 12:00 PM
               <br />
-              Demo Day: <span className="text-amber-600 font-semibold">November 23, 2025</span> at MY150, Myhal Centre
+              Demo Day: <span className="text-amber-600 font-semibold">Tentative November 23, 2025</span> at MY150, Myhal Centre
             </p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -35,8 +35,8 @@ export function Hero() {
             {[
               ['Participants', '300'],
               ['Teams', '150-160'],
-              ['Prep Period', '23 Days'],
-              ['Demo Day', 'Nov 23'],
+              ['Prep Period', '3+ Weeks'],
+              ['Prizes', '$3000'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-orange-600">{name}</dt>
