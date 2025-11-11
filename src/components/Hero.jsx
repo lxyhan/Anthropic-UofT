@@ -30,7 +30,7 @@ export function Hero() {
             </p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button href="https://lu.ma/anthropic-uoft" className="flex-1 text-lg py-4 !bg-transparent border-2 border-blue-600 !text-blue-600 hover:!bg-blue-50">
+            <Button href="https://luma.com/67o28orn" className="flex-1 text-lg py-4 !bg-transparent border-2 border-blue-600 !text-blue-600 hover:!bg-blue-50">
               Register on Luma
             </Button>
             <Button href="#schedule" className="flex-1 sm:hidden">
