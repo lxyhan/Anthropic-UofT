@@ -41,66 +41,77 @@ const schedule = [
     ],
   },
   {
-    date: 'Nov 1 - Nov 23',
+    date: 'Nov 1 - Nov 22',
     dateTime: '2025-11-01',
     summary:
-      'Preparation Period - Teams work independently with full Claude API access and weekly support.',
+      'Build Period - Teams work independently with Claude API access, office hours, and support.',
     timeSlots: [
       {
-        name: 'Independent Building',
-        description: 'Teams work on their projects with full API access',
+        name: 'Build Period',
+        description: 'Ongoing now until Nov 22 at 11:59 PM ET',
         start: 'Ongoing',
         end: '',
       },
       {
-        name: 'Weekly Office Hours',
-        description: 'Virtual support sessions every Wednesday at 7:00 PM',
-        start: 'Wednesdays',
+        name: 'Office Hours',
+        description: 'Thursdays at 7:00 PM — feedback, ideas, and API guidance',
+        start: 'Thursdays',
         end: '7:00PM',
       },
       {
-        name: 'Mid-point Check-in',
-        description: 'Optional team progress sharing (November 6)',
-        start: 'Nov 6',
-        end: '',
-      },
-      {
-        name: 'Final Submission',
-        description: 'Deadline: November 12, 11:59 PM',
-        start: 'Nov 12',
+        name: 'Submission Deadline',
+        description: 'Devpost submission with demo video and GitHub repo due Nov 22 at 11:59 PM ET',
+        start: 'Nov 22',
         end: '11:59PM',
       },
     ],
   },
   {
-    date: 'Tentative Nov 23',
+    date: 'Nov 23',
     dateTime: '2025-11-23',
     summary:
-      'Demo Day - Final presentations, judging, and awards at MY150, Myhal Centre.',
+      'Demo Day - Live judging, awards, and networking at Bahen Center for Information Technology.',
     timeSlots: [
       {
         name: 'Check-in & Setup',
-        description: 'Team arrival and demo setup',
-        start: '9:00AM',
-        end: '10:00AM',
+        description: 'Teams arrive, set up laptops and demos. Light breakfast & coffee available.',
+        start: '10:30AM',
+        end: '11:00AM',
       },
       {
-        name: 'Team Demos',
-        description: 'Project presentations and judging',
-        start: '10:00AM',
-        end: '2:00PM',
+        name: 'Opening Ceremony + Keynotes',
+        description:
+          'Welcome from organizers and sponsors, overview of judging process and prizes.',
+        start: '11:00AM',
+        end: '11:45AM',
       },
       {
-        name: 'Lunch & Networking',
-        description: 'Food and networking with participants',
-        start: '2:00PM',
-        end: '3:00PM',
+        name: 'Lunch & Team Prep',
+        description:
+          'Catered lunch; teams finalize demo flow and technical setup before judging.',
+        start: '11:45AM',
+        end: '12:30PM',
       },
       {
-        name: 'Awards Ceremony',
-        description: 'Winner announcements and closing',
-        start: '3:00PM',
-        end: '6:00PM',
+        name: 'Judging Sessions & Workshops',
+        description:
+          'Teams rotate through judging rooms in 15–20 minute slots. Parallel workshops and lightning talks.',
+        start: '12:30PM',
+        end: '4:00PM',
+      },
+      {
+        name: 'Break & Final Deliberations',
+        description:
+          'Judges finalize scores; attendees grab refreshments, visit sponsor tables, and continue networking.',
+        start: '4:00PM',
+        end: '5:00PM',
+      },
+      {
+        name: 'Closing Ceremony & Awards',
+        description:
+          'Winning teams announced and closing remarks, followed by open networking and wrap-up.',
+        start: '5:00PM',
+        end: '7:00PM',
       },
     ],
   },
@@ -243,12 +254,13 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-orange-600 sm:text-5xl">
-            Three-phase hackathon: Challenge, Build, Demo.
+            Anthropic AI Hackathon: Build, Ship, Demo.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-orange-900">
-            From challenge release to demo day, you&apos;ll have 23 days to build 
-            with Claude API. Join 300+ participants across 150+ teams competing 
-            for prizes at the Myhal Centre.
+            Over 20 days, you&apos;ll go from prompt drop to live Demo Day at the Bahen
+            Center for Information Technology. Build with Claude API, ship a
+            polished demo, and present your work to judges from Anthropic,
+            Agentiiv, and campus organizations.
           </p>
         </div>
       </Container>
