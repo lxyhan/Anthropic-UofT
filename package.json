@@ -16,6 +16,7 @@
     "next": "^15",
     "react": "^19",
     "react-dom": "^19",
+    "tailwind-merge": "^2.5.5",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {

@@ -16,8 +16,8 @@ export function HackerGuide() {
           
           {/* Clean subtitle */}
           <p className="mt-6 text-lg leading-8 text-orange-900 sm:text-xl">
-            Everything you need to get started. Competition guidelines, API documentation, 
-            submission requirements, and judging criteria.
+            Everything you need to get started: event overview, tracks, judging rubric,
+            submission requirements, and Claude API resources.
           </p>
           
           {/* Centered CTA button with ample spacing */}
@@ -54,7 +54,16 @@ export function HackerGuide() {
           
           {/* Optional subtitle hint */}
           <p className="mt-6 text-sm text-orange-600/70">
-            Opens in a new tab
+            Opens in a new tab. Join the Discord for announcements, team formation, and support:
+            {' '}
+            <a
+              href="https://discord.gg/hnZtXj3btN"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-dotted"
+            >
+              discord.gg/hnZtXj3btN
+            </a>
           </p>
         </div>
       </Container>

@@ -26,7 +26,7 @@ export function Hero() {
             <p>
               Challenge Release: <span className="text-amber-600 font-semibold">November 1, 2025</span> at 12:00 PM
               <br />
-              Demo Day: <span className="text-amber-600 font-semibold">Tentative November 23, 2025</span> at MY150, Myhal Centre
+              Demo Day: <span className="text-amber-600 font-semibold">November 23, 2025</span> at Bahen Center for Information Technology (doors open at 10:30 AM)
             </p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
