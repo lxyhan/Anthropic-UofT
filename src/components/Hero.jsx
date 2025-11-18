@@ -19,7 +19,7 @@ export function Hero() {
           
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-orange-900">
             <p>
-              Join 300+ builders at the University of Toronto&apos;s premier AI hackathon. 
+              Join 350+ builders at the University of Toronto&apos;s premier AI hackathon. 
               Build with Claude API, compete for prizes, and connect with fellow innovators 
               shaping the future of artificial intelligence.
             </p>
@@ -55,7 +55,7 @@ export function Hero() {
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Participants', '300'],
+              ['Participants', '350'],
               ['Teams', '150-160'],
               ['Prep Period', '3+ Weeks'],
               ['Prizes', '$3000'],
